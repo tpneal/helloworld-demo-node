@@ -6,9 +6,8 @@ on:
       - "main"
     tags:
       - 'v*'
-  pull_request:
-    branches:
-      - "main"
+    paths-ignore:
+      - config/**
 
 jobs:
   docker:

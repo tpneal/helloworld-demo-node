@@ -18,7 +18,7 @@ spec:
         app: node-hello-world
     spec:
       containers:
-      - image: tpneal/hellonodejs:latest
+      - image: tpneal/hellonodejs:main
         name: node-hello-world
         securityContext:
           seccompProfile:
