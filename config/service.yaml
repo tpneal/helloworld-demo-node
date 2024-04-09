@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     app: node-hello-world
+    foo: bar
   name: node-hello-world
 spec:
   ports:
